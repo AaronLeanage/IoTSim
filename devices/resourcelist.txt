@@ -1,0 +1,21 @@
+[
+	"router",
+	"controller",
+	"ac_on",
+	"ac_off",
+	"coffee_on",
+	"coffee_off",
+	"fan_on",
+	"fan_off",
+	"heater_on",
+	"heater_off",
+	"motionsensor_on",
+	"motionsensor_off",
+	"siren_on",
+	"siren_off",
+	"smokealarm_on",
+	"smokealarm_off",
+	"temperaturesensor",
+	"window_on",
+	"window_off"
+]

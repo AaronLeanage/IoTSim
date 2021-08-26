@@ -1,0 +1,85 @@
+[{
+		"id": 0,
+		"name": "DELETED DEVICE",
+		"group": 0,
+		"onStateImg": "",
+		"offStateImg": ""
+	},
+	{
+		"id": 1,
+		"name": "Router",
+		"group": 0,
+		"onStateImg": "router",
+		"offStateImg": "router"
+	},
+	{
+		"id": 2,
+		"name": "Controller",
+		"group": 0,
+		"onStateImg": "controller",
+		"offStateImg": "controller"
+	},
+	{
+		"id": 3,
+		"name": "Smoke Alarm",
+		"group": 1,
+		"onStateImg": "smokealarm_on",
+		"offStateImg": "smokealarm_off"
+	},
+	{
+		"id": 4,
+		"name": "Window",
+		"group": 1,
+		"onStateImg": "window_on",
+		"offStateImg": "window_off"
+	},
+	{
+		"id": 5,
+		"name": "Coffee Machine",
+		"group": 1,
+		"onStateImg": "coffee_on",
+		"offStateImg": "coffee_off"
+	},
+	{
+		"id": 6,
+		"name": "Motion Sensor",
+		"group": 2,
+		"onStateImg": "motionsensor_on",
+		"offStateImg": "motionsensor_off"
+	},
+	{
+		"id": 7,
+		"name": "Siren",
+		"group": 2,
+		"onStateImg": "siren_on",
+		"offStateImg": "siren_off"
+	},
+	{
+		"id": 8,
+		"name": "Temperature Sensor",
+		"group": 3,
+		"onStateImg": "temperaturesensor",
+		"offStateImg": "temperaturesensor"
+	},
+	{
+		"id": 9,
+		"name": "AC Unit",
+		"group": 3,
+		"onStateImg": "ac_on",
+		"offStateImg": "ac_off"
+	},
+	{
+		"id": 10,
+		"name": "Heater",
+		"group": 3,
+		"onStateImg": "heater_on",
+		"offStateImg": "heater_off"
+	},
+	{
+		"id": 11,
+		"name": "Fan",
+		"group": 3,
+		"onStateImg": "fan_on",
+		"offStateImg": "fan_off"
+	}
+]
