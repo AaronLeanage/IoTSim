@@ -17,5 +17,7 @@
 	"smokealarm_off",
 	"temperaturesensor",
 	"window_on",
-	"window_off"
+	"window_off",
+	"oven_on",
+	"oven_off"
 ]
