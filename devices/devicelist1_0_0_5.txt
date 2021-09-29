@@ -146,8 +146,8 @@
 		"id": 12,
 		"name": "Oven",
 		"group": 1,
-		"onStateImg": "fan_on",
-		"offStateImg": "fan_off",
+		"onStateImg": "oven_on",
+		"offStateImg": "oven_off",
 		"helpstring": "Can be turned on or off. The oven can be used to increase the smoke level in the environment. An oven will increase the smoke level by 1 every second.",
 		"envVars": {
 			"temperature": 0,
