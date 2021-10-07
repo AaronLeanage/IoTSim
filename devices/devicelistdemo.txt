@@ -168,7 +168,7 @@
 		}
 	},
 	{
-		"id": 12,
+		"id": 14,
 		"name": "Smart Plug",
 		"group": 4,
 		"onStateImg": "splug_on",
