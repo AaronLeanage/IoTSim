@@ -1,0 +1,182 @@
+[{
+		"id": 0,
+		"name": "DELETED DEVICE",
+		"group": 0,
+		"onStateImg": "",
+		"offStateImg": "",
+		"helpstring": "",
+		"envVars": {
+			"temperature": 0,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 1,
+		"name": "Router",
+		"group": 0,
+		"onStateImg": "router",
+		"offStateImg": "router",
+		"helpstring": "The router is automatically created when a new file is created. This is because all of the IoT devices will communicate with the controller, and thus each other, through the Router.",
+		"envVars": {
+			"temperature": 0,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 2,
+		"name": "Controller",
+		"group": 0,
+		"onStateImg": "controller",
+		"offStateImg": "controller",
+		"helpstring": "The controller is automatically created when a new file is created. This is because the controller is required to control IoT devices and process the rules created in order to control devices.",
+		"envVars": {
+			"temperature": 0,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 3,
+		"name": "Smoke Alarm",
+		"group": 1,
+		"onStateImg": "smokealarm_on",
+		"offStateImg": "smokealarm_off",
+		"helpstring": "A smoke alarm detects the current smoke level in the environment. The smoke level will only be reported on screen if a smoke alarm is in the layout.",
+		"envVars": {
+			"temperature": 0,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 4,
+		"name": "Window",
+		"group": 1,
+		"onStateImg": "window_on",
+		"offStateImg": "window_off",
+		"helpstring": "Can be turned on or off (open or closed). A window can be used to reduce the smoke level when open. A window will decrease the smoke level by 2 every second.",
+		"envVars": {
+			"temperature": 0,
+			"smoke": -2
+		}
+	},
+	{
+		"id": 5,
+		"name": "Coffee Machine",
+		"group": 1,
+		"onStateImg": "coffee_on",
+		"offStateImg": "coffee_off",
+		"helpstring": "Can be turned on or off. A coffee machine can make coffee when turned on. ",
+		"envVars": {
+			"temperature": 0,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 6,
+		"name": "Motion Sensor",
+		"group": 2,
+		"onStateImg": "motionsensor_on",
+		"offStateImg": "motionsensor_off",
+		"helpstring": "Can be turned on or off. A motion sensor can be used to trigger other devices via controller rules. ",
+		"envVars": {
+			"temperature": 0,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 7,
+		"name": "Siren",
+		"group": 2,
+		"onStateImg": "siren_on",
+		"offStateImg": "siren_off",
+		"helpstring": "Can be turned on or off. A siren will light up when turned on to cause an alert. ",
+		"envVars": {
+			"temperature": 0,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 8,
+		"name": "Temperature Sensor",
+		"group": 3,
+		"onStateImg": "temperaturesensor",
+		"offStateImg": "temperaturesensor",
+		"helpstring": "A temperature sensor detects the current temperature in the environment. The temperature will only be reported on screen if a temperature sensor is in the layout. ",
+		"envVars": {
+			"temperature": 0,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 9,
+		"name": "AC Unit",
+		"group": 3,
+		"onStateImg": "ac_on",
+		"offStateImg": "ac_off",
+		"helpstring": "Can be turned on or off. The AC unit can be used to cool the temperature of the environment. An AC unit will reduce the temperature by 2 every second.",
+		"envVars": {
+			"temperature": -2,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 10,
+		"name": "Heater",
+		"group": 3,
+		"onStateImg": "heater_on",
+		"offStateImg": "heater_off",
+		"helpstring": "Can be turned on or off. The heater can be used to heat the temperature of the environment. A heater will increase the temperature by 2 every second.",
+		"envVars": {
+			"temperature": 2,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 11,
+		"name": "Fan",
+		"group": 3,
+		"onStateImg": "fan_on",
+		"offStateImg": "fan_off",
+		"helpstring": "Can be turned on or off. The fan can be used to cool the temperature of the environment. A fan will reduce the temperature by 1 every second.",
+		"envVars": {
+			"temperature": -1,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 12,
+		"name": "Oven",
+		"group": 1,
+		"onStateImg": "oven_on",
+		"offStateImg": "oven_off",
+		"helpstring": "Can be turned on or off. The oven can be used to increase the smoke level in the environment. An oven will increase the smoke level by 1 every second.",
+		"envVars": {
+			"temperature": 0,
+			"smoke": 1
+		}
+	}
+	,
+	{
+		"id": 13,
+		"name": "Light",
+		"group": 4,
+		"onStateImg": "light_on",
+		"offStateImg": "light_off",
+		"helpstring": "Can be turned on or off. A smart light which lights up a room.",
+		"envVars": {
+			"temperature": 0,
+			"smoke": 0
+		}
+	},
+	{
+		"id": 12,
+		"name": "Smart Plug",
+		"group": 4,
+		"onStateImg": "splug_on",
+		"offStateImg": "splug_off",
+		"helpstring": "Can be turned on or off. A smart plug switches on/off the device plugged into it.",
+		"envVars": {
+			"temperature": 0,
+			"smoke": 0
+		}
+	}
+]
